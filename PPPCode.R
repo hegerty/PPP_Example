@@ -3,7 +3,7 @@
 
 #CHANGE the letter F if you need to; This is now a direct download
 setwd("F:/")
-data<-read.csv("https://sites.google.com/site/swhegerty/macroeconomic-data-analysis/PPPData.csv")
+data<-read.csv("https://raw.githubusercontent.com/hegerty/PPP_Example/main/PPPData.csv")
 #Check your data first!
 head(data)
 #Remove the date column
