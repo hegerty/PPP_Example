@@ -1,26 +1,26 @@
 Purchasing Power Parity (PPP) Example
 ================
 Scott W. Hegerty
-Spring 2023
+ECON 321/343 Fall 2022
 
 This is the (annotated) R code for the PPP data exercise used in ECON
 321 and 343. We test the concept of relative Purchasing Power Parity:
 That changes in the exchange rate are related to changes in the two
 countries’ price levels. This differs from “absolute” PPP, which is in
 levels, and states that two countries’ bilateral exchange rate should be
-equal to the ratio of their price levels: \[E_{H/F}=P^H/P^F\] Absolute
+equal to the ratio of their price levels: *E(H/F) = P(H)/P(F)*. Absolute
 PPP allows this ratio to be equal only proportionally–using the constant
-\(k\). This is less strict, since the two values do not need to be
+*k*. This is less strict, since the two values do not need to be
 equal, and therefore might more closely match reality. Relative PPP is
-therefore \(E_{H/F}=kP^H/P^F\). Taking the derivative of the log turns
+therefore *E(H/F) = kP(H)/P(F)*. Taking the derivative of the log turns
 this into percentage changes (and the derivative of a constant is zero,
 so this drops out):
 
-\[ \% \Delta  E = \pi^H-\pi^F\]
+*delta(E) = inf(H) - inf(F)*
 
-\#\#\# Procedure
+## Procedure
 
-Our goal is to use three data series (for the USD\_EUR exchange rate, as
+Our goal is to use three data series (for the USD\EUR exchange rate, as
 well as U.S. and Eurozone price levels, to generate appreciations,
 inflation rates, and other relevant variables. We will then summarize
 the data and test for a relationship between currency appreciations and
