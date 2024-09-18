@@ -5,8 +5,10 @@ It shows how to manage a dataset and calculate some simple statistics, as well a
 
 > [.R file](https://github.com/hegerty/PPP_Example/blob/main/PPPCode.R)    
 > [Youtube video](https://youtu.be/vbzOBzOZevg) (working the .R file)  
-> [Python version (Jupyter notebook)](https://github.com/hegerty/PPP_Example/blob/main/PPP_321.ipynb) (pretty basic)  
-> [R tutorial](https://github.com/hegerty/PPP_Example/blob/main/PPP_Example.md)  (more detailed)
+> [Python version (Jupyter notebook)](https://github.com/hegerty/PPP_Example/blob/main/PPP_321.ipynb) (pretty basic)
+
+Here is a detailed walkthrough using R:
+> [R tutorial](https://github.com/hegerty/PPP_Example/blob/main/PPP_Example.md)
 
 ***
 More information is available at www.scotthegerty.com.
